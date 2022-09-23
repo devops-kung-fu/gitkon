@@ -1,0 +1,13 @@
+version: 2.4.1
+hooks:
+- type: pre-commit
+  actions:
+  - name: Hello Hookz!
+    url: null
+    args:
+    - -e
+    - Hello Hookz!
+    exec: /bin/echo
+    script: null
+sources:
+- source: github.com/devops-kung-fu/hinge@latest
