@@ -7,6 +7,7 @@ func main() {
 	Done()
 }
 
+// Done prints done
 func Done() {
 	fmt.Println("done")
 }
